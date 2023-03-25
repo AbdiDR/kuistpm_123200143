@@ -23,7 +23,7 @@ class _HalamanDetailState extends State<HalamanDetail> {
                 IconButton(
                     icon: new Icon(
                       Icons.favorite,
-                      color: widget.pokemon.isFavorite? Colors.white:Colors.red,
+                      color: widget.pokemon.isFavorite? Colors.white:Colors.black,
                     ),
                     onPressed: ()
                     {
